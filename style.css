@@ -1,4 +1,19 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+@media(max-width:700px){
+	article{
+		width:95%;
+	}
+	header div{
+		display:none;
+	}
+}
+
+@media(max-width:500px){
+	.choice-grid .checkbox_set{
+		width:49%;
+	}
+}
+
 .choice-grid {
 	display:flex;
 	justify-content:space-between;

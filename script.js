@@ -133,16 +133,15 @@ function onClick_restart(event){
 }
 
 const set1 = document.querySelectorAll('.checkbox_set[data-question-id="one"]');
+const set2 = document.querySelectorAll('.checkbox_set[data-question-id="two"]');
+const set3 = document.querySelectorAll('.checkbox_set[data-question-id="three"]');
+
 for(const set of set1){
 	set.addEventListener('click', onClick1);
 }
-
-const set2 = document.querySelectorAll('.checkbox_set[data-question-id="two"]');
 for(const set of set2){
 	set.addEventListener('click', onClick2);
 }
-
-const set3 = document.querySelectorAll('.checkbox_set[data-question-id="three"]');
 for(const set of set3){
 	set.addEventListener('click', onClick3);
 }
